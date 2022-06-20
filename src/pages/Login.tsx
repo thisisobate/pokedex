@@ -35,6 +35,7 @@ export const Login = () => {
               onChange={handleInputChange}
               value={inputValue.username ?? ""}
               placeholder="Username"
+              required
             />
           </div>
 
@@ -46,6 +47,7 @@ export const Login = () => {
               onChange={handleInputChange}
               value={inputValue.password ?? ""}
               placeholder="Password"
+              required
             />
           </div>
           <button className={styles.button}>Log In</button>
